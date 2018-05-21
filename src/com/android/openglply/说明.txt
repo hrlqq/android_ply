@@ -1,0 +1,32 @@
+GLRenderer类:决定每一帧的渲染内容
+GLSurface类:为Render类创造GL环境，并且包括触摸监听
+LoadingAnimation类:绘制内容
+Vector3类:实现3维向量基础功能类
+PLYModel类:载入模型
+主要函数说明
+/*********************************************************************************
+	  *Function:  //writePly
+	  * Description：  //把数据写为Ply格式文件
+	  *Input:  //file 写入文件明 
+	  			 verts 顶点向量数组 
+	  			 vertsnum 数组长度
+	  			 norms 法线向量数组
+	  			 normsnum 数组长度
+	  			 colors 颜色向量数组
+	  			 colorsnum 数组长度
+	  			 faceTexcoords 面索引
+	  			 faceTexcoordsnum 数组长度
+	  *Output:  //无
+	  *Return:  //无
+	  *Others:  //其他说明
+	**********************************************************************************/
+/*********************************************************************************
+	  *Function:  //PLYModel
+	  * Description：  //读取ply格式文件 初始化顶点片段shader
+	  *Input:  //ctx 上下文环境
+	  			 filename 文件名
+	  			 listener 状态监听函数
+	  *Output:  //无
+	  *Return:  //模型对象
+	  *Others:  //其他说明
+	**********************************************************************************/
